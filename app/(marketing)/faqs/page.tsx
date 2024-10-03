@@ -87,8 +87,8 @@ const FAQ = () => {
     return (
         <div className="bg-gray-100 min-h-screen py-12 px-4 md:px-8">
             {/* Header Section */}
-            <header className="bg-white shadow-md">
-                <div className="container mx-auto px-4 py-6 text-center">
+            <header>
+                <div className=" text-center">
                     <h1 className={cn("text-4xl font-bold text-gray-800", headingFont.className)}>
                         Frequently Asked Questions
                     </h1>
